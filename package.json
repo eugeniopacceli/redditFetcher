@@ -1,0 +1,29 @@
+{
+  "name": "redditfetcher",
+  "version": "1.0.0",
+  "description": "A bot that fetches a single hot post from any subreddit and posts it to a discord chat room from time to time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugeniopacceli/redditFetcher.git"
+  },
+  "keywords": [
+    "reddit",
+    "discord",
+    "fetcher",
+    "request",
+    "rest"
+  ],
+  "author": "Eugênio Pacceli Reis da Fonseca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eugeniopacceli/redditFetcher/issues"
+  },
+  "homepage": "https://github.com/eugeniopacceli/redditFetcher#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
