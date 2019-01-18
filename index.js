@@ -64,7 +64,7 @@ fetchImageFromReddit(config.subreddit, config.criteria, (url, error) => {
     if (!error) {
         let intervalId = setInterval(() => {
             if (discordReady) {
-                discordClient.targetRoom.send(url);
+                discordClient.targetRoom.send(url).then(() => { process.exit(0); });
                 clearInterval(intervalId);
             }
         }, 1000);
